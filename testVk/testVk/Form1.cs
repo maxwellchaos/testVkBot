@@ -96,5 +96,15 @@ namespace testVk
         {
         
         }
+
+        private void LastNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textButton_Click(object sender, EventArgs e)
+        {
+            textButton.Text = "купите платную версию";
+        }
     }
 }
