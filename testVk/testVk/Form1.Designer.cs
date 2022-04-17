@@ -34,6 +34,7 @@ namespace testVk
             this.AccessTokenTextBox = new System.Windows.Forms.TextBox();
             this.LastNameLabel = new System.Windows.Forms.Label();
             this.AvatarPictureBox = new System.Windows.Forms.PictureBox();
+            this.textButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.AvatarPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +76,7 @@ namespace testVk
             this.LastNameLabel.Size = new System.Drawing.Size(35, 13);
             this.LastNameLabel.TabIndex = 4;
             this.LastNameLabel.Text = "label1";
+            this.LastNameLabel.Click += new System.EventHandler(this.LastNameLabel_Click);
             // 
             // AvatarPictureBox
             // 
@@ -84,11 +86,22 @@ namespace testVk
             this.AvatarPictureBox.TabIndex = 5;
             this.AvatarPictureBox.TabStop = false;
             // 
+            // textButton
+            // 
+            this.textButton.Location = new System.Drawing.Point(106, 31);
+            this.textButton.Name = "textButton";
+            this.textButton.Size = new System.Drawing.Size(117, 23);
+            this.textButton.TabIndex = 6;
+            this.textButton.Text = "button1";
+            this.textButton.UseVisualStyleBackColor = true;
+            this.textButton.Click += new System.EventHandler(this.textButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 392);
+            this.Controls.Add(this.textButton);
             this.Controls.Add(this.AvatarPictureBox);
             this.Controls.Add(this.LastNameLabel);
             this.Controls.Add(this.AccessTokenTextBox);
@@ -109,6 +122,7 @@ namespace testVk
         private System.Windows.Forms.TextBox AccessTokenTextBox;
         private System.Windows.Forms.Label LastNameLabel;
         private System.Windows.Forms.PictureBox AvatarPictureBox;
+        private System.Windows.Forms.Button textButton;
     }
 }
 
