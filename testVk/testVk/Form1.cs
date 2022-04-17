@@ -96,5 +96,10 @@ namespace testVk
         {
         
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            testButton.Text = "привет";
+        }
     }
 }
