@@ -34,6 +34,7 @@ namespace testVk
             this.AccessTokenTextBox = new System.Windows.Forms.TextBox();
             this.LastNameLabel = new System.Windows.Forms.Label();
             this.AvatarPictureBox = new System.Windows.Forms.PictureBox();
+            this.HiButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.AvatarPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,11 +85,22 @@ namespace testVk
             this.AvatarPictureBox.TabIndex = 5;
             this.AvatarPictureBox.TabStop = false;
             // 
+            // HiButton
+            // 
+            this.HiButton.Location = new System.Drawing.Point(12, 321);
+            this.HiButton.Name = "HiButton";
+            this.HiButton.Size = new System.Drawing.Size(88, 30);
+            this.HiButton.TabIndex = 6;
+            this.HiButton.Text = "HiButton";
+            this.HiButton.UseVisualStyleBackColor = true;
+            this.HiButton.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 392);
+            this.Controls.Add(this.HiButton);
             this.Controls.Add(this.AvatarPictureBox);
             this.Controls.Add(this.LastNameLabel);
             this.Controls.Add(this.AccessTokenTextBox);
@@ -109,6 +121,7 @@ namespace testVk
         private System.Windows.Forms.TextBox AccessTokenTextBox;
         private System.Windows.Forms.Label LastNameLabel;
         private System.Windows.Forms.PictureBox AvatarPictureBox;
+        private System.Windows.Forms.Button HiButton;
     }
 }
 

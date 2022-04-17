@@ -1,0 +1,13 @@
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\bin\Debug\testVk.exe.config
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\bin\Debug\testVk.exe
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\bin\Debug\testVk.pdb
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.csproj.AssemblyReference.cache
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.MainForm.resources
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.Properties.Resources.resources
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.csproj.GenerateResource.cache
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.csproj.CoreCompileInputs.cache
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.csproj.CopyComplete
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.exe
+C:\Users\Студент\Downloads\testVkBot-main (1)\testVkBot-main\testVk\testVk\obj\Debug\testVk.pdb
